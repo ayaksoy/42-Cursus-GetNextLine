@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   get_next_line_bonus.h                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yokten <yokten@student.42.fr>              +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/20 13:15:14 by yokten            #+#    #+#             */
+/*   Updated: 2023/01/20 13:19:54 by yokten           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef GET_NEXT_LINE_BONUS_H
 # define GET_NEXT_LINE_BONUS_H
 
@@ -5,7 +17,7 @@
 # include <unistd.h>
 
 # ifndef BUFFER_SIZE
-	# define BUFFER_SIZE 42
+#  define BUFFER_SIZE 42
 # endif
 
 int		ft_strchr(char *str);
