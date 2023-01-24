@@ -6,13 +6,11 @@
 /*   By: yokten <yokten@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:19:03 by yokten            #+#    #+#             */
-/*   Updated: 2023/01/18 00:48:52 by yokten           ###   ########.fr       */
+/*   Updated: 2023/01/24 18:44:47 by yokten           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <fcntl.h>
-#include <stdio.h>
 
 char	*ft_read_file(int fd, char *stash)
 {
@@ -93,19 +91,3 @@ char	*get_next_line(int fd)
 	stash = ft_new_line(stash);
 	return (to_return);
 }
-
-/* int main()
-{
-	int	fd;
-
-	fd = open("get_next_line.c", O_CREAT | O_RDWR, 777);
-	while (1)
-	{
-		char *a = get_next_line(fd);
-		printf("%s", a);
-		if (!a)
-			break ;
-		free(a);
-	}
-	system("leaks a.out");
-} */

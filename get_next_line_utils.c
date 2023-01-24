@@ -6,12 +6,11 @@
 /*   By: yokten <yokten@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/17 19:19:06 by yokten            #+#    #+#             */
-/*   Updated: 2023/01/18 00:43:32 by yokten           ###   ########.fr       */
+/*   Updated: 2023/01/24 18:44:12 by yokten           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 
 int	ft_strlen(char *str)
 {
