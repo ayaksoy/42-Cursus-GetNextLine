@@ -27,6 +27,7 @@ char	*ft_read_file(int fd, char *stash)
 		if (check == -1)
 		{
 			free(buff);
+			free(stash);
 			return (NULL);
 		}
 		buff[check] = '\0';
